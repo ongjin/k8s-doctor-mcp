@@ -2,7 +2,7 @@
 
 > AI-powered Kubernetes cluster diagnostics and intelligent debugging recommendations
 
-[![npm version](https://img.shields.io/npm/v/k8s-doctor-mcp)](https://www.npmjs.com/package/k8s-doctor-mcp)
+[![npm version](https://img.shields.io/npm/v/@zerry_jin/k8s-doctor-mcp)](https://www.npmjs.com/package/@zerry_jin/k8s-doctor-mcp)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-green)](https://nodejs.org)
 [![Kubernetes](https://img.shields.io/badge/kubernetes-1.20%2B-blue)](https://kubernetes.io)
@@ -46,10 +46,12 @@ When a Kubernetes issue strikes, developers typically run through an endless loo
 
 ## Installation
 
+📦 **npm Package**: https://www.npmjs.com/package/@zerry_jin/k8s-doctor-mcp
+
 ### Via npm (recommended)
 
 ```bash
-npm install -g k8s-doctor-mcp
+npm install -g @zerry_jin/k8s-doctor-mcp
 ```
 
 ### From source
