@@ -1,6 +1,6 @@
 {
     "name": "@zerry_jin/k8s-doctor-mcp",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "AI-powered Kubernetes cluster diagnostics MCP server - analyzes pod failures, logs, resource usage, and provides intelligent debugging recommendations",
     "type": "module",
     "main": "dist/index.js",
