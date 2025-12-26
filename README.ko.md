@@ -3,6 +3,7 @@
 > AI 기반 Kubernetes 클러스터 진단 및 지능형 디버깅 추천 시스템
 
 [![npm version](https://img.shields.io/npm/v/@zerry_jin/k8s-doctor-mcp)](https://www.npmjs.com/package/@zerry_jin/k8s-doctor-mcp)
+[![npm downloads](https://img.shields.io/npm/dm/@zerry_jin/k8s-doctor-mcp)](https://www.npmjs.com/package/@zerry_jin/k8s-doctor-mcp)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-green)](https://nodejs.org)
 [![Kubernetes](https://img.shields.io/badge/kubernetes-1.20%2B-blue)](https://kubernetes.io)
@@ -45,8 +46,6 @@
 | `list-pods` | **파드 목록** - 문제가 있는 파드 상태 표시 |
 
 ## 설치
-
-📦 **npm 패키지**: https://www.npmjs.com/package/@zerry_jin/k8s-doctor-mcp
 
 ### npm으로 설치 (권장)
 
