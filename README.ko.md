@@ -65,10 +65,10 @@ npm install && npm run build
 
 ```bash
 # npm 전역 설치 후
-claude mcp add k8s-doctor -- k8s-doctor-mcp
+claude mcp --scope project add k8s-doctor -- k8s-doctor-mcp
 
 # 또는 소스에서 빌드한 경우
-claude mcp add k8s-doctor -- node /path/to/k8s-doctor-mcp/dist/index.js
+claude mcp --scope project add k8s-doctor -- node /path/to/k8s-doctor-mcp/dist/index.js
 ```
 
 ## 빠른 설정 (권장)
@@ -281,7 +281,7 @@ npm run build
 
 # Claude Code로 테스트
 npm run build
-claude mcp add k8s-doctor-dev -- node $(pwd)/dist/index.js
+claude mcp add --scope project k8s-doctor-dev -- node $(pwd)/dist/index.js
 ```
 
 ## 기여

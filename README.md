@@ -65,10 +65,10 @@ npm install && npm run build
 
 ```bash
 # After npm global install
-claude mcp add k8s-doctor -- k8s-doctor-mcp
+claude mcp add --scope project k8s-doctor -- k8s-doctor-mcp
 
 # Or from source build
-claude mcp add k8s-doctor -- node /path/to/k8s-doctor-mcp/dist/index.js
+claude mcp add --scope project k8s-doctor -- node /path/to/k8s-doctor-mcp/dist/index.js
 ```
 
 ## Quick Setup (Auto-approve Tools)
@@ -281,7 +281,7 @@ npm run build
 
 # Test with Claude Code
 npm run build
-claude mcp add k8s-doctor-dev -- node $(pwd)/dist/index.js
+claude mcp add --scope project k8s-doctor-dev -- node $(pwd)/dist/index.js
 ```
 
 ## Contributing
