@@ -1,0 +1,65 @@
+{
+    "name": "k8s-doctor-mcp",
+    "version": "1.0.0",
+    "description": "AI-powered Kubernetes cluster diagnostics MCP server - analyzes pod failures, logs, resource usage, and provides intelligent debugging recommendations",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "bin": {
+        "k8s-doctor-mcp": "dist/index.js"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "tsx src/index.ts",
+        "demo": "tsx examples/demo.ts",
+        "prepublishOnly": "npm run build",
+        "test": "node --test"
+    },
+    "keywords": [
+        "mcp",
+        "model-context-protocol",
+        "kubernetes",
+        "k8s",
+        "debugging",
+        "diagnostics",
+        "devops",
+        "kubectl",
+        "pod",
+        "crashloop",
+        "logs",
+        "cluster",
+        "monitoring",
+        "claude",
+        "anthropic",
+        "ai"
+    ],
+    "author": "zerry",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ongjin/k8s-doctor-mcp.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ongjin/k8s-doctor-mcp/issues"
+    },
+    "homepage": "https://github.com/ongjin/k8s-doctor-mcp#readme",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.0.0",
+        "@kubernetes/client-node": "^1.0.0",
+        "zod": "^3.23.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "tsx": "^4.0.0",
+        "typescript": "^5.0.0"
+    }
+}
